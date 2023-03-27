@@ -60,9 +60,38 @@ footer{
     background-color: #36A3A2;
     padding: 13px;
 }
+.footInfo{
+    font-size: 16px;
+}
+.footInfo a{
+    color: #215B93;
+    text-decoration: none;
+}
+.footInfo a:hover{
+    color: #333;
+}
+.footRedes{
+    font-size: 20px;
+    text-align: center;
+}
+.footRedes i{
+    font-size: 36px;
+    text-indent: 25px;
+    text-align: center;
+    color: #333;
+}
+i:hover{
+    color: #215B93;
+}
 
 
 
+@media only screen and (min-width:320px) and (max-width:640px){
+    .img img{
+        width: 310px;
+        height: auto;
+    }
+}
 @media only screen and (min-width:1700px){
     .img img{
         width: 800px;
