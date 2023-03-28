@@ -105,6 +105,7 @@ footer i:hover{
     padding: 15px;
     border:#0668AE solid 5px;
     border-radius: 5px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 10;
     list-style-type: none;
@@ -164,6 +165,57 @@ footer i:hover{
 }
 .txt2Supp a{
     color: black;
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+fieldset{
+    background-color: #fff;
+    padding: 20px;
+    justify-content: center;
+    margin: 30px;
+    border: #1D41AB solid;
+}
+form legend{
+    background-color: #0668AE;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+form label{
+    font-size: 18px;
+}
+form input{
+    background-color: #215c938f;
+    padding: 5px;
+    border: #215B93 solid;
+    border-radius: 5px;
+}
+.inp{
+    width: 90%;
+}
+form select{
+    background-color: #215c938f;
+    padding: 5px;
+    border: #215B93 solid;
+    border-radius: 5px;
+}
+form textarea{
+    text-align: center;
+}
+form .textarea{
+    text-align: center;
+    margin-top: 15px;
+}
+.resetSubmit{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 
