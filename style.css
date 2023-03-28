@@ -45,11 +45,13 @@ h1{
     padding: 15px;
     /* margin: 20px; */
     margin-bottom: 20px;
+    box-shadow: 0 0 5px #000;
 }
 .img img{
     width: 600px;
     height: 500px;
     border-radius: 8px;
+    box-shadow: 0 0 5px #000;
 }
 .rowHome{
     /* margin: 20px; */
@@ -79,14 +81,21 @@ footer{
     text-indent: 25px;
     text-align: center;
     color: #333;
+    text-shadow: 0 0 4px #215B93;
 }
 footer i:hover{
     color: #215B93;
+}
+.imgFunc img{
+    box-shadow: none;
 }
 .img .imgPurif{
     width: 900px;
     height: auto;
     margin-bottom: 50px;
+}
+.img .img2Purif{
+    box-shadow: none;
 }
 .subTitleFunc{
     background-color: #1D41AB;
@@ -118,6 +127,13 @@ footer i:hover{
     width: 90%;
     height:max-content;
 }
+.txt2Purif h2{
+    text-align: center;
+    font-weight: bold;
+}
+.txt2Purif h3{
+    font-weight: bold;
+}
 .subTitlePurif{
     background-color: #1D41AB;
     color: #fff;
@@ -143,6 +159,7 @@ footer i:hover{
 }
 .txtSupp i{
     font-size: 30px;
+    text-shadow: 0 0 1px #fff ;
 }
 .subTitleSupp{
     width: max-content;
@@ -217,17 +234,39 @@ form .textarea{
     justify-content: space-between;
     margin-top: 10px;
 }
+.fondoCont{
+    background-image: url(./assets/img/PurificadorFondo.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
 
 
 
 
 @media only screen and (min-width:320px) and (max-width:640px){
+    h1{
+        font-size: 40px;
+    }
+    .h1Func{
+        font-size: 35px;
+    }
     .img img{
-        width: 310px;
+        width: 320px;
         height: auto;
     }
     .img .imgPurif{
-        width: 95%;
+        width: 100%;
+    }
+    .txtHome{
+        margin: 5px;
+    }
+    .txt{
+        padding: 10px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .txt3Purif2{
+        padding-left: 24px;
     }
 }
 @media only screen and (min-width:768px){
@@ -245,6 +284,14 @@ form .textarea{
 @media only screen and (min-width:641px) and (max-width:990px){
     .img .img2Purif{
         width: 400px;
+    }
+}
+@media only screen and (min-width:1440px){
+    .txtSupp{
+        font-size: 24px;
+    }
+    .txtSupp i{
+        font-size: 50px;
     }
 }
 @media only screen and (min-width:1700px){
